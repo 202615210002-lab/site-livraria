@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #c5d9e6;
+    color: #171717;
+    font-family: "Times New Roman", serif;
+}
+.cabecalho {
+    min-height: 200px;
+    padding: 25px 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.marca {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.livro-logo {
+    font-size: 100px;
+    line-height: 1;
+}
+.marca h1 {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 42px;
+    line-height: 1;
+    font-weight: 800;
+    text-shadow: 0 1px 2px #aaa;
+}
+.slogan {
+    align-self: flex-end;
+    margin-bottom: 9px;
+    color: #fff;
+    font-size: 18px;
+    text-shadow: 0 1px 2px #aaa;
+}
+.menu {
+    min-height: 43px;
+    padding: 7px 10px;
+    border-top: 1px solid #b9bec1;
+    border-bottom: 1px solid #b9bec1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+.links {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+.links a {
+    color: #252525;
+    font-size: 14px;
+    text-decoration: none;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+.pesquisa {
+    width: 205px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #c6c6c6;
+}
+.pesquisa input {
+    width: 100%;
+    min-width: 0;
+    height: 100%;
+    padding: 7px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: inherit;
+}
+.pesquisa button {
+    height: 100%;
+    padding: 0 9px;
+    border: none;
+    background: transparent;
+    color: #777;
+    font-size: 27px;
+}
+.secao {
+    padding: 12px 28px 0;
+    text-align: center;
+    border-bottom: 1px solid #b9bec1;
+}
+.secao h2 {
+    margin: 0 0 19px;
+    font-size: 27px;
+    font-weight: bold;
+}
+.lista-livros {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 24px;
+}
+.produto {
+    min-width: 0;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+.capa {
+    display: block;
+    width: 76px;
+    height: 105px;
+    margin: 0 auto 7px;
+    border: 2px solid #f7f2e9;
+    box-shadow: 1px 2px 4px #0003;
+    background: #c9cdd0;
+}
+.produto p {
+    margin-bottom: 3px;
+    overflow-wrap: anywhere;
+}
+.produto small {
+    display: block;
+    margin-bottom: 3px;
+    color: #555;
+    line-height: 1.3;
+    overflow-wrap: anywhere;
+}
+
+.produto strong {
+    font-size: 10px;
+}
+
+.botao {
+    min-width: 130px;
+    margin: 25px auto 0;
+    padding: 15px 20px;
+    display: inline-block;
+    border: 1px solid #b9bec1;
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+.botao:hover {
+    background: #d1d5d7;
+}
+footer {
+    min-height: 110px;
+    padding: 20px 25px;
+    background: #101529;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+footer p {
+    margin-bottom: 5px;
+    color: #d4d7df;
+    font-size: 11px;
+}
+footer small {
+    display: block;
+    margin-top: 12px;
+    font-size: 10px;
+    color: #d4d7df;
+}
